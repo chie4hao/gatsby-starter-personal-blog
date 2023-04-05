@@ -1,37 +1,21 @@
 ---
 title: About
+menuTitle: about
 ---
 
-This is a demo site of the [PersonalBlog](https://github.com/greglobinski/gatsby-starter-personal-blog) GatsbyJS starter.
+My new blog based on [GatsbyJS](https://www.gatsbyjs.org/), the code is open source and available at [Github](https://github.com/chie4hao/gatsbyBlog)
 
-The starter is a ready to use, easy to customize 'like theme' starter. It has everything what blog should have and some more.
-
-### Standard features:
+### Features:
 
 * Easy editable content in **Markdown** files (posts, pages and parts)
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
+* **CSS** with `styled-jsx`
+* **SEO** (sitemap, robot, meta)
 * **Social** sharing (Twitter, Facebook, Google, LinkedIn)
 * **Comments** (Facebook)
 * **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (post list filtering)
+* Post **categories** (category based post list)
 * Full text **searching** (Algolia)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* **PWA** (manifest.json, offline support, favicons)
+* 100% **PWA** (manifest.webmanifest, offline support, favicons)
 * Google **Analytics**
-* **Favicons** generator (node script)
-* **Material UI** (@next)
-
-### Advanced features:
-
-* Easy customizable base **styles** via `theme` object (fonts, colors, sizes)
-* **Components** lazy loading (social sharing, comments)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Custom webpack `CommonsChunkPlugin` settings
-* Webpack `BundleAnalyzerPlugin`
-* Contact **form validation** (react-material-ui-form-validator)
-
-## Instructions
-
-For detailed instructions go to [Front-end web development with Greg](https://dev.greglobinski.com/gatsby-starter-personal-blog/).
+* App **favicons** generator (node script)
+* React **v.16** (gatsby-plugin-react-next)
